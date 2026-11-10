@@ -1,0 +1,15 @@
+{
+  "name": "bagmidia-clone",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "prepare:clone": "node scripts/prepare-clone.mjs",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  }
+}
